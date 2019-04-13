@@ -6,9 +6,10 @@ Scrivito.provideComponent('BlockquoteWidget', ({ widget }) => {
     const alignment = widget.get('alignment') || 'left'
 
         classNames.push(`text-${alignment}`);
-        classNames.push(`border-${alignment}`);
-        classNames.push(`padding-${alignment}`);
-
+        if(alignment !== 'center') {
+            classNames.push(`border-${alignment}`);
+            classNames.push(`padding-${alignment}`);
+        }
 
     return (
 
