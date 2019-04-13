@@ -4,7 +4,7 @@ const BlockquoteWidget = Scrivito.provideWidgetClass('BlockquoteWidget', {
     attributes: {
         quote: 'html',
         author: 'string',
-        alignment: ['enum', { values: ['left', 'right'] }],
+        alignment: ['enum', { values: ['left', 'center' ,'right'] }],
     },
 });
 

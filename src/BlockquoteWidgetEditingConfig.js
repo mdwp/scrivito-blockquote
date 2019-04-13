@@ -10,6 +10,7 @@ Scrivito.provideEditingConfig('BlockquoteWidget', {
             description: 'Default: Left',
             values: [
                 { value: 'left', title: 'Left' },
+                { value: 'center', title: 'Center' },
                 { value: 'right', title: 'Right' },
             ],
         },
